@@ -57,10 +57,52 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Your code starts here! -------------------------------------*/
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+  /*   border:1px solid grey; */
+  }
+.wrapper{
+	position:relative;
+
+}
+.title{
+	border:1px solid;
+	width:120px;
+	text-align:center;
+	display:inline-block;
+	background-color:white ;
+	padding:15px 0;
+  	
+}
+.image1{
+	position: absolute;
+	top: 20px;
+	right:300px;
+}
+.image2{
+	position:absolute;
+	right: 300px;
+	opacity: 0.5;
+}
+.nav {
+	text-align:center;
+	letter-spacing: 2px;
+	margin: 60px;
+	width:60px;
+}
+.image3{
+	width:100%
+}
+div{
+	display:inline-block;
+}
