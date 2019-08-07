@@ -71,19 +71,27 @@ h1, h2, h3, h4, h5 {
 	margin:0;
   /*   border:1px solid grey; */
 	}
+body{
+	margin: 0 auto;
+	width: 1000px;
 
+}
 .container{
 	width: 975px;
+
 }
 header nav{
 	display: inline;
 	margin: 35px 0 60px 0;
+
 }
 
 header nav a{
 	display: inline;
 	margin: 35px;
 	color: lightgray;
+
+	text-decoration: none;
 }
 
 .logo{
@@ -92,7 +100,7 @@ header nav a{
 
 
 .wrapper, .wrapper2, .image3, .wrapper3, .wrapper4{
-	position:relative;
+	
 	display: inline-block;
 	margin: 35px 35px 0 35px;
 	width: 100%;
@@ -139,6 +147,11 @@ header nav a{
 }
 hr{
 	margin-top: 20px;
+
+}
+
+.copy{
+	text-align: center;
 
 }
 
